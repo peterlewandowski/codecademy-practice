@@ -30,3 +30,14 @@ function sayHello(name) {
   }
 
 
+const hello = () => {
+  console.log('hello')
+}
+
+const hello = function () {
+  console.log('hello')
+}
+
+function hello {
+  console.log('hello')
+}
