@@ -38,6 +38,6 @@ const hello = function () {
   console.log('hello')
 }
 
-function hello {
+function hello() {
   console.log('hello')
 }
