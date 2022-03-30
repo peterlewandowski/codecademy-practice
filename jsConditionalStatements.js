@@ -1,18 +1,18 @@
-let username = '';
-let defaultName;
+let username1 = '';
+let defaultName1;
 
 if (username) {
-    defaultName = username;
+    defaultName1 = username1;
 } else {
-    defaultName = 'Stranger';
+    defaultName1 = 'Stranger';
 }
 
 console.log(defaultName); // Prints: Stranger
 
-let username = '';
-let defaultName = username || 'Stranger';
+let username2 = '';
+let defaultName2 = username2 || 'Stranger';
 
-console.log(defaultName); // Prints: Stranger
+console.log(defaultName2); // Prints: Stranger
 
 
 
@@ -45,16 +45,16 @@ console.log(`The ${writingUtensil} is mightier than the sword.`);
 
 
 // TRUTHY FALSY ASSIGNMENT
-let username = '';
-let defaultName;
+let username3 = '';
+let defaultName3;
  
 if (username) {
-  defaultName = username;
+  defaultName3 = username3;
 } else {
-  defaultName = 'Stranger';
+  defaultName3 = 'Stranger';
 }
  
-console.log(defaultName); // Prints: Stranger
+console.log(defaultName3); // Prints: Stranger
 
 
 
