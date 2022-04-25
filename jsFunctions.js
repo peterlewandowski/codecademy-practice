@@ -12,7 +12,6 @@ function add(num1, num2) {
 }
 
 
-
 // CALLING FUNCTIONS
 
 // Defining the function
